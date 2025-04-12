@@ -4,55 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a class="header-nav-link" href="">Studio</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Portfolio</a></li>
+          <li class="header-nav-item"><a class="header-nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-contacts">
+        <ul class="header-contacts-list">
+          <li class="header-contacts-item"><a class="header-contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="header-contacts-item"><a class="header-contacts-link"href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
+      <section class="section-main"> 
         <h1>Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
       <section>
         <h2>Adventures</h2>
-        <ul>
-          <li>
+        <ul class="main-item">
+          <li class="main-item-list">
             <h3>Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="main-item-list">
             <h3>Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="main-item-list">
             <h3>Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="main-item-list">
             <h3>Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
@@ -99,6 +103,64 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images.jpg/img-1.jpg"
+              alt="Banking App"
+              width="360"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images.jpg/img-2.jpg"
+              alt="Cashless Payment"
+              width="360"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images.jpg/img-3.jpg"
+              alt="Meditation App"
+              width="360"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images.jpg/img-4.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images.jpg/img-5.jpg"
+              alt="Screen Illustrations"
+              width="360"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li><li>
+            <img
+              src="./images.jpg/img.jpg"
+              alt="Online Courses"
+              width="360"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
