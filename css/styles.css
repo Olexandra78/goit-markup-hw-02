@@ -56,7 +56,7 @@ body {
   
   /*Address*/
   
-  .header-contact {
+  .header-contacts {
     font-style: normal;
   }
 
@@ -133,8 +133,9 @@ body {
   /*team*/
   
   .section-team {
-    background-color: #f4f4fd;
+    background-color: #FFFFFF;
   }
+
   .section-team-title {
     font-weight: 700;
     font-size: 36px;
@@ -147,7 +148,7 @@ body {
   .section-team-title-list {
    background-color: #FFFFFF;
   }
-  
+
   /*.section-team-title-list-item {
   }*/
   
