@@ -133,7 +133,7 @@ body {
   /*team*/
   
   .section-team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
   }
 
   .section-team-title {
@@ -146,7 +146,7 @@ body {
     color: #2e2f42;
   }
   .section-team-title-list {
-   background-color: #FFFFFF;
+    background-color:#FFFFFF;
   }
 
   /*.section-team-title-list-item {
