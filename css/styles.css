@@ -145,13 +145,16 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
   }
+
+  /*}
   .section-team-title-list {
+    
+  }*/
+
+  .section-team-title-list-item {
     background-color:#FFFFFF;
   }
-
-  /*.section-team-title-list-item {
-  }*/
-  
+   
   .team-name {
     font-weight: 500;
     font-size: 20px;
